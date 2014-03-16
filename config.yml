@@ -1,0 +1,41 @@
+# Configuration File for ACVoteCoins 
+# @Author: robo7193
+# On the money section, simply type the amount of money to be received and the number of vote coins to be taken away. On the AmountOfMoney, DO NOT put a $ sign. Just the integer.
+Money:
+  AmountOfMoney: 
+  VoteCoinsCost:
+
+# On the OtherRewards section, put the ItemID of what rewards you want (excluding Money).
+OtherRewards:
+  one: 
+  two: 
+  three:
+  four:
+
+# On the OtherRewardsNames section, put the name of the corresponding item - this will show up on the /vote rewards.
+OtherRewardsNames:
+  one:
+  two:
+  three:
+  four:
+  costOfOne:
+  costOfTwo:
+  costOfThree:
+  costOfFour:  
+# On the NumOfCoins section, you decide how many Vote Coins to give per vote.
+
+NumOfCoins:
+
+#On the VotingLinks Section, put your links. http:// is required and bit.ly is preferred. Example: http://bit.ly/randomcode
+
+VotingLinks:
+  one:
+  two:
+  three:
+  four:
+  five:
+  
+# DO NOT PUT DECIMALS IN THE MONEY OR NUMOFCOINS SECTION. THE PLUGIN WILL CRASH AND WILL NOT WORK. 
+# DO NOT TOUCH THIS NEXT SECTION. CONTAINS COINDATABASE.
+
+coinsdatabase: []

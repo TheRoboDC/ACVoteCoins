@@ -1,0 +1,11 @@
+name: ACVoteCoins
+main: io.github.TheRoboDC.ACVoteCoins
+version: 1.0.0
+description: Vote Coin Manager for Armored Craft.
+commands:
+  vote:
+    description: Explains the vote-rewards commands.
+  addvotecoin:
+    description: Adds a votecoin from Console.
+  votecoins:
+    description: Shows number of votecoins player has.
